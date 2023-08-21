@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Manrope", sans-serif;
-  background-color: hsl(210, 46%, 95%);
+  background-color: black;
   font-size: 13px;
 }
 
@@ -137,4 +137,29 @@ main {
 }
 .attribution a {
   color: hsl(214, 17%, 51%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 auto;
+  }
+  main {
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .left-container {
+    height: 220px;
+  }
+  .right-container {
+    padding-bottom: 25px;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .description {
+    line-height: 1.5em;
+    margin-bottom: 2.5em;
+  }
 }/*# sourceMappingURL=style.css.map */
