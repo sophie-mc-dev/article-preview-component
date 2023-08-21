@@ -12,7 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Manrope", sans-serif;
-  background-color: black;
+  background-color: hsl(210, 46%, 95%);
   font-size: 13px;
 }
 
@@ -23,6 +23,7 @@ main {
   border-radius: 10px;
   overflow: hidden;
   width: 728px;
+  box-shadow: 0px 15px 50px hsla(0, 0%, 0%, 0.185);
 }
 
 .left-container {
